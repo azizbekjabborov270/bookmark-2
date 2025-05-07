@@ -1,0 +1,42 @@
+:root {
+  --font-family: "Rubik", sans-serif;
+  --second-family: "Noto Sans", sans-serif;
+  --third-family: "SF Pro Text", sans-serif;
+  --font3: "GT America", sans-serif;
+  --font4: "Montserrat", sans-serif;
+  --font5: "Dancing Script", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.paginate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+.paginate li{
+  border: solid 1px rgb(0, 119, 255);
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+.paginate li:hover{
+  background-color: rgba(0, 104, 223, 0.849);
+}
+.paginate li.active{
+  border: solid 2px rgb(0, 225, 255);
+  color: rgb(0, 0, 0);
+}
